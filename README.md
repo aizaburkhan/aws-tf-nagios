@@ -2,7 +2,7 @@
 ```hcl
 module "group-project-3" {
         source = ""
-        version = "0.0.3"
+        version = "0.0.4"
         region = "us-east-2"
         vpc_name = "project"
         cidr = "10.0.0.0/16"
