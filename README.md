@@ -1,6 +1,8 @@
 # project-group-project-3
 
 module "group-project-3" {
+    source = ""
+    version = "0.0.3"
     region = "us-east-2"
     vpc_name = "project"
     cidr = "10.0.0.0/16"
