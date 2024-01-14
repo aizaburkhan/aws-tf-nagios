@@ -88,4 +88,8 @@ variable ec2_name {
   description = "provide instance name"
 }
 
-
+variable userdata {
+  type        = string
+  default     = "/home/ec2-user/terraform-aws-project3/script.sh"
+  description = "provide the path to the script"
+}
