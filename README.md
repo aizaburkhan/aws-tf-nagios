@@ -1,7 +1,7 @@
 # project-group-project-3
 ```hcl
 module "group-project-3" {
-        source = ""
+        source = "herabakirova/project3/aws"
         version = "0.0.4"
         region = "us-east-2"
         vpc_name = "project"
